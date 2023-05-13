@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .circleBackground{
+        @apply w-24 h-24 rounded-full drop-shadow-lg bg-white flex justify-center items-center cursor-pointer text-4xl;
+    }
+}
+
+.avatar{
+	min-width: 300px;
+	min-height: 300px;
+	position: relative;
+	border-radius: 100%;
+}
+
+.avatar .image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+	animation: morph 8s ease-in-out infinite 1s;
+	background-blend-mode: multiply;
+	-webkit-box-shadow: inset 0px 0px 0px 9px rgba(255,255,255,.3);
+    -moz-box-shadow: inset 0px 0px 0px 9px rgba(255,255,255,.3);
+    box-shadow: inset 0px 0px 0px 9px rgba(255,255,255,.3);
+}
+
+.projects{
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-template-areas:"left right";
+}
+
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+   }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+   }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+   }
+}
