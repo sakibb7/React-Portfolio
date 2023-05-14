@@ -6,7 +6,7 @@ import { project1, project2, project3 } from "../assets/index";
 const Portfolio = () => {
   return (
     <div id="projects" className="bg-slate-50 py-[150px] ss:py-[100px]">
-      <div className="max-w-screen-xl mx-auto ss:px-[40px]">
+      <div className="max-w-screen-xl mx-auto ss:px-[15px]">
         <div className="pb-[100px]">
           <Title
             sectionHeading="PORTFOLIO"

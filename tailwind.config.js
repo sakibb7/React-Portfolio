@@ -27,7 +27,7 @@ export default {
       },
 
       screens: {
-        'ss': {'max': '640px'},
+        'ss': {'max': '440px'},
       },   
 
       

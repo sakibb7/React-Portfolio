@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="flex justify-between items-center ss:flex-col ss:flex-col-reverse">
           <div className="w-1/2 ss:w-full flex flex-col ss:px-[40px]">
             <div className="flex relative">
-              <h1 className="text-5xl ss:py-[50px] font-semibold leading-tight ss:text-center ">
+              <h1 className="text-5xl ss:text-4xl ss:py-[50px] font-semibold leading-tight ss:text-center ">
                 Front-End React Developer 👋
               </h1>
             </div>
@@ -45,11 +45,11 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-16 text-2xl mt-12 ss:flex-col">
-          <p className="text-bold pt-8 border-r-4 ss:border-r-0 ss:border-b-4 pr-[70px] ss:pr-0 border-gray-500 ss:text-center ss:mx-[150px] font-medium ss:pb-4">
+          <p className="text-bold pt-8 border-r-4 ss:border-r-0 ss:border-b-4 pr-[70px] ss:pr-0 border-gray-500 ss:text-center ss:mx-[100px] font-medium ss:pb-4">
             Tech Stack
           </p>
           <div className="flex gap-8 ss:px-[60px] flex-wrap ss:place-content-center">
-            <span className="circleBackground">
+            <span className="circleBackground ">
               <img src={html} alt="" />
             </span>
             <span className="circleBackground">
