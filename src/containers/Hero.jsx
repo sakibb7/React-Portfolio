@@ -18,20 +18,15 @@ const Hero = () => {
         <div className="flex justify-between items-center ss:flex-col ss:flex-col-reverse">
           <div className="w-1/2 ss:w-full flex flex-col ss:px-[40px]">
             <div className="flex relative">
-              <h1 className="text-5xl ss:text-[40px] ss:py-[20px] font-semibold leading-tight ss:text-center ">
-                Front-End React Developer
+              <h1 className="text-5xl ss:py-[50px] font-semibold leading-tight ss:text-center ">
+                Front-End React Developer 👋
               </h1>
-              <img
-                className="absolute top-c3.5 left-c17 ss:top-[70px] ss:left-[276px]"
-                src={wavehand}
-                alt=""
-              />
             </div>
-            <p className="pt-8 text-xl ss:text-[20px] text-fontColor">
+            <p className="pt-8 ss:pt-4 text-[25px] text-fontColor ss:text-center">
               Hi, Im Sakib. A Passionate Front-End Developer Based in Dhaka,
               Bangladesh.📍
             </p>
-            <div className="flex justify-start items-center gap-4 pt-8">
+            <div className="flex justify-start items-center ss:justify-center gap-4 pt-8">
               <a className="cursor-pointer hover:text-linkColor" href="">
                 <AiFillGithub size="45px" />
               </a>
@@ -49,10 +44,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex gap-16 text-2xl">
-          <p className="text-bold pt-8">Tech Stack </p>
-          <p className="text-4xl pt-7">|</p>
-          <div className="flex gap-8">
+        <div className="flex gap-16 text-2xl mt-12 ss:flex-col">
+          <p className="text-bold pt-8 border-r-4 ss:border-r-0 ss:border-b-4 pr-[70px] ss:pr-0 border-gray-500 ss:text-center ss:mx-[150px] font-medium ss:pb-4">
+            Tech Stack
+          </p>
+          <div className="flex gap-8 ss:px-[60px] flex-wrap ss:place-content-center">
             <span className="circleBackground">
               <img src={html} alt="" />
             </span>

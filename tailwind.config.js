@@ -22,23 +22,13 @@ export default {
         'hlh': "4rem"
       },
 
-      keyframes:{
-        blobs: {
-          '0%': { rounded: '{30%|60%|70%|40%}' },
-          '50%': { rounded: '[ 60% 70% 40%]/[50% 60% 30% 60%]' },
-          '100%': { rounded: '[60% 40% 30% 70%]/[60% 30% 70% 40%]' },
-        }
-      },
-
       animation: {
         blobs: 'blob 8s ease-in-out infinite 1s',
       },
 
       screens: {
         'ss': {'max': '640px'},
-      },
-
-      
+      },   
 
       
     },

@@ -5,8 +5,8 @@ import { GoMailRead } from "react-icons/go";
 
 const Contact = () => {
   return (
-    <div id="contact" className=" py-[150px]">
-      <div className="max-w-screen-xl mx-auto">
+    <div id="contact" className=" py-[150px] ss:py-[100px]">
+      <div className="max-w-screen-xl mx-auto ss:px-[40px]">
         <div>
           <Title
             sectionHeading="CONTACT"
@@ -14,7 +14,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className="flex justify-start items-center gap-[200px]">
+        <div className="flex justify-start ss:flex-col ss:justify-center items-center gap-[200px] ss:gap-[10px]">
           <div className="flex justify-start items-center text-[20px] pt-[50px]">
             <i className="mr-[40px] bg-white drop-shadow-lg p-[30px] text-[30px] rounded-full">
               <TbMap2 color="#0088EB" size="35px" />
