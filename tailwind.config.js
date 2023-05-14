@@ -32,7 +32,13 @@ export default {
 
       animation: {
         blobs: 'blob 8s ease-in-out infinite 1s',
-      }
+      },
+
+      screens: {
+        'ss': {'max': '640px'},
+      },
+
+      
 
       
     },

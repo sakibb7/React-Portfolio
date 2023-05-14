@@ -14,20 +14,20 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 const Hero = () => {
   return (
     <div id="home" className="bg-slate-50">
-      <div className="mx-auto max-w-screen-xl py-44 ">
-        <div className="flex justify-between items-center">
-          <div className="w-1/2 flex flex-col">
+      <div className="mx-auto max-w-screen-xl py-44 ss:py-20">
+        <div className="flex justify-between items-center ss:flex-col ss:flex-col-reverse">
+          <div className="w-1/2 ss:w-full flex flex-col ss:px-[40px]">
             <div className="flex relative">
-              <h1 className="text-5xl font-semibold leading-tight">
-                Front-End React Developer{" "}
+              <h1 className="text-5xl ss:text-[40px] ss:py-[20px] font-semibold leading-tight ss:text-center ">
+                Front-End React Developer
               </h1>
               <img
-                className="absolute top-c3.5 left-c17"
+                className="absolute top-c3.5 left-c17 ss:top-[70px] ss:left-[276px]"
                 src={wavehand}
                 alt=""
               />
             </div>
-            <p className="pt-8 text-xl text-fontColor">
+            <p className="pt-8 text-xl ss:text-[20px] text-fontColor">
               Hi, Im Sakib. A Passionate Front-End Developer Based in Dhaka,
               Bangladesh.📍
             </p>
