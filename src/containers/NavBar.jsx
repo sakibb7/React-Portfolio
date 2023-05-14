@@ -9,10 +9,10 @@ const NavBar = () => {
   const [toggle, settoggle] = useState(false);
 
   return (
-    <div className="sticky top-0 z-10 pt-2 h-[100px] bg-white drop-shadow-lg">
-      <div className="flex justify-between items-center max-w-screen-xl mx-auto pt-5 p-10">
+    <div className="sticky top-0 z-10 h-[75px] bg-white drop-shadow-lg">
+      <div className="flex justify-between items-center max-w-screen-xl mx-auto pt-5 p-5">
         <div>
-          <p className="font-titleFont font-bold text-3xl cursor-pointer">
+          <p className="font-titleFont font-bold text-[25px] cursor-pointer">
             SA KIB
           </p>
         </div>
