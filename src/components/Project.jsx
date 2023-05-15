@@ -5,7 +5,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 const Project = ({ img, title, desc, tech1, tech2, code, demo, reverse }) => {
   return (
     <div className="bg-white rounded-[20px] w-full mb-[50px]">
-      <div className="projects ss:flex ss:flex-col ss:items-center">
+      <div className="projects ss:flex ss:flex-col ss:items-center ss:px-0">
         <div className="rounded-[10px] h-[500px] w-[500px] ss:h-[350px] ss:w-[380px] overflow-hidden group relative">
           <div className="overflow-hidden relative">
             <img
@@ -15,9 +15,9 @@ const Project = ({ img, title, desc, tech1, tech2, code, demo, reverse }) => {
             />
           </div>
         </div>
-        <div className="ss:pt-[30px] items-center w-[550px] flex flex-col justify-center gap-y-10 px-[50px] text-center">
+        <div className="ss:pt-[30px] items-center w-[400px] flex flex-col justify-center gap-y-10 px-[20px] text-center">
           <h3 className="font-bold text-[22px]">{title}</h3>
-          <p className="text-[#767676] text-[18px] font-semibold w-full ss:px-[25px]">
+          <p className="text-[#767676] text-[18px] font-semibold w-full">
             {desc}
           </p>
           <div className="flex justify-center items-center gap-8">
@@ -29,13 +29,19 @@ const Project = ({ img, title, desc, tech1, tech2, code, demo, reverse }) => {
             </p>
           </div>
           <div className="flex justify-center items-center text-[24px] font-medium gap-12">
-            <a className="flex justify-center items-center gap-2" href={code}>
+            <a
+              className="flex justify-center items-center gap-2 cursor-pointer"
+              href={code}
+            >
               Code{" "}
               <i className="text-[40px]">
                 <AiFillGithub />
               </i>
             </a>
-            <a className="flex justify-center items-center gap-2" href={demo}>
+            <a
+              className="flex justify-center items-center gap-2 cursor-pointer"
+              href={demo}
+            >
               {" "}
               Live Demo{" "}
               <i className="text-[30px]">
