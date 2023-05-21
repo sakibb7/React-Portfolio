@@ -41,6 +41,7 @@
 	grid-template-areas:"left right";
 }
 
+/* wave animation */
 
 @keyframes morph {
     0% {

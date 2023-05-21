@@ -33,7 +33,7 @@ const Project = ({ img, title, desc, tech1, tech2, code, demo, reverse }) => {
               className="flex justify-center items-center gap-2 cursor-pointer"
               href={code}
             >
-              Code{" "}
+              Code
               <i className="text-[40px]">
                 <AiFillGithub />
               </i>
