@@ -1,21 +1,18 @@
 import "./App.css";
-import About from "./containers/About";
-import Contact from "./containers/Contact";
-import Footer from "./containers/Footer";
-import Hero from "./containers/Hero";
-import NavBar from "./containers/NavBar";
-import Portfolio from "./containers/Portfolio";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Age from "./pages/Age";
 
 function App() {
   return (
     <>
       <div className="w-full h-auto font-bodyFont text-primaryColor">
-        <NavBar />
-        <Hero />
-        <About />
-        <Portfolio />
-        <Contact />
-        <Footer />
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/age" element={<Age />} />
+          </Routes>
+        </Router>
       </div>
     </>
   );
